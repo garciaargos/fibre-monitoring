@@ -1,0 +1,14 @@
+# Mapping of fibres to switches and SFPs
+# Fibre number maps to a transmitting switch, transmitting port and
+# a receiving switch, receiving port
+# Name of the fibre (label used in the LHC) and attenuator value at the
+# transmitter output
+
+#fibre	txsw	txport	rxsw	rxport	fibrename	attenuator
+1       bismonitorsw1   2       bismonitorsw1   4       SR7toUA67        0
+2       bismonitorsw1   4       bismonitorsw1   2       SR7toUA83        10
+3       bismonitor2     2       bismonitor2     2       SR3toUA43        0
+4       bismonitor2     4       bismonitor2     4       SR3toUA27        0
+5       bismonitorsw3   2       bismonitorsw3   2       US15toUA23       10
+6       bismonitorsw3   4       bismonitorsw3   4       US15toUA87       10
+7       bismonitorsw3   6       bismonitorsw3   6       US15toCCR        10
